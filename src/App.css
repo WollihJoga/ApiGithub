@@ -1,0 +1,127 @@
+/* Definindo estilos globais e fontes */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0349c2; /* Fundo claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(https://w.wallha.com/ws/14/mqXhBkje.png);
+  background-size:cover
+}
+
+/* Estilizando o container principal */
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(173, 53, 53, 0.15);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilizando o cabeçalho */
+header {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(#172ceb, #220af5, #4a0cf5, #262726, #000000);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
+}
+
+
+/* Estilizando o main e o conteúdo */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  background: linear-gradient(#050202, #000000, #1c33fc, #0c11ff);
+  background-clip: text;
+  color: transparent;
+  
+  
+}
+
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #0735ff; /* Cor rosa ao focar */
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #020258;
+  background-color: #190eaf; /* Cor verde limão */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2805ee; /* Cor verde escuro ao passar o mouse */
+}
+
+/* Estilizando o conteúdo */
+.conteudo {
+  width: 100%;
+}
+
+.conteudo img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #020f5a;
+  box-shadow: 
+  0 0 5px 
+  #0000fff6, /* Sombra difusa */
+  0 0 10px rgb(23, 1, 85),
+  0 0 15px rgba(19, 1, 124, 0.904);
+}
+
+.conteudo h1 {
+  font-size: 22px;
+  color: #002fff;
+  margin-bottom: 10px;
+}
+
+.conteudo p {
+  font-size: 16px;
+  color: #0004fc;
+}
+
